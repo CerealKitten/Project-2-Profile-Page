@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+}
+
+#logo {
+    width: 100%;
+    align-self: center;
+    margin: 5px 10px 5px 0;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: museo-300;
+    margin: 10% 5px
+}
+
+body {
+    background: url(https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true);
+    background-color: white;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-blend-mode: multiply;
+}
+
+div {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 90%;
+    height: 100%;
+}
+
+p {
+    font-family: museo-300;
+    margin: 1vh 0;
+}
+
+span {
+    font-size: .6em
+}
+
+section {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100vw;
+	background-image: url(https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true);
+	background-color: gainsboro;
+    background-blend-mode: multiply;
+}
+
+.socials {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+}
+
+.nav-link {
+    margin: 50px 10px;
+    color: gray;
+}
+
+.social-link {
+    border-radius: 5px;
+    margin: 5px;
+    width: 35px;
+    height: 35px;
+}
+
+.social-under {
+    color: #cacaca;
+    font-family: museo-300;
+    margin: 2px 5px;
+}
+
+.nav-link {
+    font-family: museo-300;
+}
+
+#carousel {
+    margin-bottom: 3vh;
+    border: solid white 7px;
+    height: 27vh;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    background: url(https://pbs.twimg.com/profile_images/1020275729706102787/XOEmZKBq.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%
+}
+
+.arrow {
+    width: 7%;
+    margin: 0 -3vw;
+    align-self: center;
+}
+
+.ex-work {
+    margin-top: 7vh;
+    width: 95%;
+    height: 75vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-bottom: 2.5vh;
+}
+.ex-item {
+    border-radius: 1px;
+    width: 30%;
+    height: 22.5%;
+    margin-top: 2%;
+}
+
+#view-button {
+    text-align: center;
+    width: 200px;
+	font-family: museo-300;
+	color: white;
+	background-image: url(https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true);
+	background-color: gainsboro;
+	background-blend-mode: multiply;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 3.5vh;
+}
+
+#bird {
+    width: 1.3em;
+}
+
+#foot-head {
+    color: white;
+    border-top: 2.5vh;  
+}
+
+#get-ready {
+    align-items: center;
+    background-color: #505050;
+    width: 100vw;
+    height: 5vh;
+}
+
+.foot-sec {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.foot-div {
+    display: flex;
+    flex-flow: column;
+    width: 45vw;
+    margin: 2vh 0;
+}
+
+#logo-foot {
+    width: 15vw;
+    align-self: center;
+    margin-right: 2vw;
+}
+
+#foot-nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: .8em;
+}
+
+.foot-link {
+    color: #505050;
+    margin-right: .5vh;
+}
+
+#read-more {
+    color: #505050;
+    margin: 0;
+    font-size: .9em;
+}
+
+.end-head {
+    font-family: museo-500;
+    color: #505050;
+    font-size: 2vh;
+    text-transform: uppercase;
+    margin-bottom: 1vh;
+}
+
+#bottom-search {
+    width: 43vw;
+    height: 2vh;
+    margin-top: -2vh:
+}
+
+.white {
+    color: white;
+}
+
+#minigal {
+    display: none;
+    width: 30vw;
+}
+
+.end-gal {
+    margin-top: 2vh;
+    width: 95%;
+    height: 30vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    margin-bottom: 2.5vh;
+}
+
+@media screen and (min-width: 900px) {
+    
+    p {
+        font-size: 3vh;
+    }
+
+    footer {
+        height: 40vh;
+        padding-bottom: 5vh;
+    }
+
+    #carousel {
+        height: 60vh;
+    }
+
+    .ex-item {
+        width: 23%;
+        height: 30%;
+    }
+
+    .arrow {
+        margin: 0 -2.3vw;
+    }
+
+    .end-head {
+        font-size: 3vh;
+    }
+
+    #minigal {
+        display: flex;
+        flex-direction: column;
+        height: 15%;
+        margin: 2vh 0 5vh;
+    }
+
+    .foot-div {
+        width: 30vw;
+        margin-bottom: 0;
+    }
+
+    #view-button {
+        width: 20vw;
+        font-size: 3vh;
+        margin-top: 1vh;
+        margin-bottom: 5vh;
+    }
+
+    #logo-foot {
+        width: 6vw;
+        margin-right: 2vw;
+    }
+
+    #foot-nav {
+        font-size: 1.2em;;
+    }
+
+    .foot-link {
+        margin-right: 2vw;
+    }
+
+    #bottom-search {
+        width: 29vw;
+        height: 3vh;
+    }
+
+    #get-ready {
+        align-content: space-between;
+        height: 10vh;
+    }
+
+    .ex-end {
+        width: 6.6vw;
+        height: 7vh;
+        margin-bottom: 1vh;
+    }
+
+}
