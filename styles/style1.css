@@ -60,6 +60,12 @@ footer {
     background-blend-mode: multiply;
 }
 
+#ex-proj {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 30vh;
+}
+
 .socials {
     display: flex;
     flex-flow: column wrap;
@@ -91,9 +97,9 @@ footer {
 #carousel {
     margin-bottom: 3vh;
     border: solid white 7px;
-    height: 27vh;
     display: flex;
-    width: 90%;
+    height: 40vh;
+    width: 50vw;
     justify-content: space-between;
     background: url(https://pbs.twimg.com/profile_images/1020275729706102787/XOEmZKBq.jpg);
     background-repeat: no-repeat;
@@ -110,32 +116,18 @@ footer {
 .ex-work {
     margin-top: 7vh;
     width: 95%;
-    height: 75vh;
+    height: 50vh;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     align-content: space-around;
-    margin-bottom: 2.5vh;
+    margin-bottom: 8vh;
 }
 .ex-item {
     border-radius: 1px;
     width: 30%;
     height: 22.5%;
     margin-top: 2%;
-}
-
-#view-button {
-    text-align: center;
-    width: 200px;
-	font-family: museo-300;
-	color: white;
-	background-image: url(https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true);
-	background-color: gainsboro;
-	background-blend-mode: multiply;
-    border-radius: 3px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-bottom: 3.5vh;
 }
 
 #bird {
@@ -235,13 +227,21 @@ footer {
         padding-bottom: 5vh;
     }
 
+    #ex-proj {
+        height: 80vh;
+    }
+
     #carousel {
         height: 60vh;
     }
 
+    .ex-work {
+        height: 75vh;
+    }
+
     .ex-item {
         width: 23%;
-        height: 30%;
+        height: 40%;
     }
 
     .arrow {
