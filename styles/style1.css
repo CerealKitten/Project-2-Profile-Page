@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    font-size: .5em;
+    font-size: .6em;
     font-family: museo-300;
 }
 
@@ -69,7 +69,8 @@ header {
 #ex-proj {
     display: flex;
     flex-flow: column nowrap;
-    width: 55vw;
+    width: 60vw;
+    height: 90vh;
 }
 
 #al-right {
@@ -93,12 +94,13 @@ header {
 
 .proj-ex {
     width: 30%;
+    justify-content: space-between;
     align-self: center;
     border: white solid 10px;
 }
 
 .proj-exes {
-    width: 55vw;
+    width: 100%;
     justify-content: space-between;
 }
 
@@ -110,7 +112,9 @@ header {
 
 .nav-link {
     margin: 50px 10px;
+    font-size: 15em;
     color: gray;
+    font-family: museo-300
 }
 
 .social-link {
@@ -126,16 +130,12 @@ header {
     margin: 2px 5px;
 }
 
-.nav-link {
-    font-family: museo-300;
-}
-
 #carousel {
     margin-bottom: 3vh;
     border: solid white 7px;
     display: flex;
     height: 40vh;
-    width: 55vw;
+    width: 100%;
     justify-content: space-between;
     background: url(https://pbs.twimg.com/profile_images/1020275729706102787/XOEmZKBq_400x400.jpg);
     background-repeat: no-repeat;
@@ -151,7 +151,7 @@ header {
 
 .ex-work {
     margin-top: 7vh;
-    width: 95%;
+    width: 90vh;
     height: 50vh;
     display: flex;
     flex-flow: row wrap;
@@ -261,7 +261,8 @@ header {
 #pro-card {
     display: flex;
     flex-flow: column;
-    width: 32.75vw;
+    width: 28vw;
+    height: 90vh;
 }
 
 .pro-name {
@@ -284,11 +285,19 @@ header {
 }
 
 #pro-par {
+    flex-flow: column wrap;
+    font-size: 14em;
     margin-top: 3vh;
+    padding-bottom: 3.5vh;
+}
+
+.break {
+    margin: 2px;
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 3vh;
+    font-weight: normal;
 }
 
 @media screen and (min-width: 900px) {
@@ -303,6 +312,7 @@ h1 {
     }
 
     #carousel {
+        margin-bottom: 5vh;
         height: 60vh;
     }
 
